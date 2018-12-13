@@ -1,0 +1,25 @@
+package UzdavSuArray;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Kauliukai {
+
+	public static void main(String[] args) throws IOException {
+		String filePath = "C:\\Program Files (x86)\\Ampps\\www\\Vytautas Naudzius\\JavaProject\\res\\tekstai\\Kauliukai.txt";
+		File file = new File(filePath);
+		Scanner scanner = new Scanner(file);
+		//int diceNumber = scanner.nextInt();
+		int dice = scanner.nextInt();// kauliulai
+		int[] diceNumber = new int [scanner.nextInt()];
+		for (int i = 0; i<diceNumber.length; i++) {
+			System.out.println(diceNumber);
+			if() {
+				
+			}
+		}
+	}
+
+}
+

@@ -1,0 +1,58 @@
+package UzdavSuArray;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Visciukai {
+	
+	public static void main(String[] args) throws IOException {
+		spausdinimas();
+		 int[] array;
+		 int number;
+	}
+	
+	private static void spausdinimas( ) throws IOException {
+			String filePath = "C:\\Program Files (x86)\\Ampps\\www\\Vytautas Naudzius\\JavaProject\\res\\tekstai\\Visciukai.txt";
+			File file = new File (filePath);
+			Scanner scanner = new Scanner (file);
+			//4
+			 int number = scanner.nextInt();
+			int[] array = new int[number];
+		
+			int k = 0;
+			for (int i = 0; i<number; i++) {
+				double mass = scanner.nextDouble();// mase
+				double year = scanner.nextDouble();// metai
+			k++;
+			System.out.println("Visciukas Nr. " + k+": " + "mase: "+ mass +":" + "amzius: " + year);
+			didziausiasVisciukas(array);
+			
+			}
+			
+	}	
+			
+			
+			private static  double didziausiasVisciukas( int[] array) {
+				int max = array[0];
+				for (int i = 0; i<array.length; i++) {
+					
+					if(array[i]>max) {
+						max = array[i];
+					}
+				}
+				System.out.println("Didziausias visciukas "+ max);
+				return max;
+				
+			}
+			
+}			
+	
+	
+
+	
+		
+
+
+

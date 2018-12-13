@@ -1,0 +1,4 @@
+Vardas, Pavarde, Amžius, Adresas, Kaledu noras
+Mamartas, Mamertauskas, 4, Sodu g. 2 Kaunas, Dideles mašinos 
+Linas, Mamermtauskas, 5, Sodu g. 2 Kaunas, Pliušinio meškino
+Gabija, Šakalyte, 7, Kvieciu g. 15 Šiauliai, Vaikiškos virtuves
